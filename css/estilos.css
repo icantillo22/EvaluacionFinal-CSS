@@ -1,0 +1,57 @@
+body{
+  font-family: 'Josefin Sans';
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: #5b7989;
+  width: 80%;
+  text-align: left;
+  margin: 0% 10%;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+header h1{
+  padding: 2%;
+  color: white;
+  font-size: 2vw;
+  width: 60%;
+}
+
+#menu{
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+a{
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  margin: 2.5vw;
+}
+
+a:visited{
+  color: white;
+}
+
+.imagenprincipal{
+  width: 80%;
+  margin: 0% 10%;
+  background-color: #82c3a6;
+}
+
+figure{
+  text-align: center;
+}
+
+.imagenprincipal figure img{
+  width: 80%;
+  margin: 5% 0%;
+}
