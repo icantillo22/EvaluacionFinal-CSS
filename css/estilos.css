@@ -164,6 +164,12 @@ footer div img{
     width: 20vw;
   }
 
+  .galeria figure{
+    width: 30% !important;
+    margin: 5% 0%;
+    text-align: center;
+  }
+
   footer{
     flex-direction: row;
     width: 80%;
@@ -184,6 +190,8 @@ footer div img{
   footer div img{
     width: 2vw;
   }
+
+
 }
 
 @keyframes slidein {
@@ -209,7 +217,7 @@ footer div img{
 }
 
 .galeria figure{
-  width: 33.3%;
+  width: 100%;
   margin: 5% 0%;
   text-align: center;
 }
